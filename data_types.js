@@ -1,8 +1,8 @@
 // Primitive Data Types
 // Number: represents numeric values, both integers and floating-point numbers.
-let age = 70; // integer
-console.log(typeof age); // Output: number
-console.log(age); // Output: 70
+let _age = 70; // integer
+console.log(typeof _age); // Output: number
+console.log(_age); // Output: 70
 
 // String: represents sequences of characters, enclosed in single or double quotes.
 let _name = "Alice";
@@ -189,3 +189,12 @@ console.log(message); // Output: num is >= 5
 let number = 4;
 let result = number % 2 === 0 ? "Even" : "Odd"; // Ternary operator
 console.log(result); // Output: Even
+
+// Nested Ternary Operator
+// age < 13 -> Child
+// age < 20 -> Teenager
+// age > 20 -> Adult
+
+let age = 16;
+let category = age < 13 ? "Child" : age < 20 ? "Teenager" : "Adult";
+console.log(category); // Output: Teenager
