@@ -52,4 +52,23 @@ console.log(fruits[0]); // Output: Apple
 console.log(fruits[1]); // Output: Banana
 console.log(fruits[2]); // Output: Orange
 fruits.push("Grapes");
-console.log(fruits); // Output: [ 'Apple', 'Banana', 'Orange', 'Grapes' ]   
+console.log(fruits); // Output: [ 'Apple', 'Banana', 'Orange', 'Grapes' ]
+
+/*
+Staticly typed languages (for exaple: Java, C++, C#) require you to declare the data type of a variable when you create it.
+For example, in Java, you would declare an integer variable like this:
+int age = 30;
+age = "thirty"; // This would result in a compile-time error because you cannot assign a string value to an integer variable.
+
+Dynamically typed languages (for example: JavaScript, Python, Ruby) do not require you to declare the data type of a variable when you create it.
+For example, in JavaScript, you can declare a variable like this:
+*/
+let myVariable = 30;
+console.log(typeof myVariable); // Output: number
+console.log(myVariable); // Output: 30
+myVariable = "thirty"; // This is allowed because JavaScript is dynamically typed and the data type of the variable can change at runtime.
+console.log(typeof myVariable); // Output: string
+console.log(myVariable); // Output: thirty
+myVariable = true; // This is also allowed because the data type of the variable can change at runtime.
+console.log(typeof myVariable); // Output: boolean
+console.log(myVariable); // Output: true
