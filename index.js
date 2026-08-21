@@ -29,3 +29,13 @@ document.getElementById("changeTextButton").onclick = function () {
   document.getElementById("name").style.backgroundColor = "red";
   document.getElementById("name").style.color = "white";
 };
+
+let count = 10;
+console.log(count);
+console.log(count);
+console.log(count);
+count = 40;
+console.log(count);
+count = 80;
+console.log(count);
+console.log(count + 10);
