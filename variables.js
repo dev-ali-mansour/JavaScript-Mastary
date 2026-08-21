@@ -32,6 +32,29 @@ console.log(x);
 console.log(y);
 console.log(z);
 
-let userName = "Alice", userAge = 25; // You can also declare multiple variables of different types in a single line, but it's generally better to keep related variables together and separate unrelated ones for clarity.
+let userName = "Alice",
+  userAge = 25; // You can also declare multiple variables of different types in a single line, but it's generally better to keep related variables together and separate unrelated ones for clarity.
 console.log(userName);
 console.log(userAge);
+
+/* 
+In JavaScript, you can create variables using the `var`, `let`, and `const` keywords. 
+The `var` keyword is function-scoped and can be redeclared and updated, 
+while the `let` keyword is block-scoped and can be updated but not redeclared. 
+The `const` keyword is also block-scoped and cannot be updated or redeclared. 
+It's generally recommended to use `let` and `const` instead of `var` 
+for better scoping and to avoid potential issues with variable hoisting.
+ */
+
+var counter = 10;
+console.log(counter); // Output: 10
+
+let newCounter = 100;
+console.log(newCounter); // Output: 100
+newCounter = 200;
+console.log(newCounter); // Output: 200
+
+const PI = 3.14;
+console.log(PI); // Output: 3.14
+// PI = 3.14159; // This will throw an error because `PI` is a constant and cannot be reassigned.
+
