@@ -1,26 +1,26 @@
-let person = {
+let alicePerson = {
   name: "Alice",
   age: 30,
   isStudent: true,
 };
-console.log(person); // Output: { name: 'Alice', age: 30, isStudent: true }
+console.log(alicePerson); // Output: { name: 'Alice', age: 30, isStudent: true }
 
-console.log(person.age); // Output: 30
-console.log(person["age"]); // Output: 30
+console.log(alicePerson.age); // Output: 30
+console.log(alicePerson["age"]); // Output: 30
 
-person.age = 66;
-console.log(person.age); // Output: 66
-console.log(person); // Output: { name: 'Alice', age: 66, isStudent: true }
+alicePerson.age = 66;
+console.log(alicePerson.age); // Output: 66
+console.log(alicePerson); // Output: { name: 'Alice', age: 66, isStudent: true }
 
-person.job = "Engineer";
-console.log(person); // Output: { name: 'Alice', age: 66, isStudent: true, job: 'Engineer' }
-console.log(person.job); // Output: Engineer
+alicePerson.job = "Engineer";
+console.log(alicePerson); // Output: { name: 'Alice', age: 66, isStudent: true, job: 'Engineer' }
+console.log(alicePerson.job); // Output: Engineer
 
-delete person.isStudent;
-console.log(person); // Output: { name: 'Alice', age: 66, job: 'Engineer' }
+delete alicePerson.isStudent;
+console.log(alicePerson); // Output: { name: 'Alice', age: 66, job: 'Engineer' }
 
-console.log("name" in person); // Output: true
-console.log(person.hasOwnProperty("age")); // Output: true
+console.log("name" in alicePerson); // Output: true
+console.log(alicePerson.hasOwnProperty("age")); // Output: true
 
 // Nested Objects
 let student = {
