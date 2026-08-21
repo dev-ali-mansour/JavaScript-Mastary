@@ -152,3 +152,40 @@ console.log("After division assignment:", D); // Output: 5
 let E = 10;
 E %= 3; // equivalent to E = E % 3
 console.log("After modulus assignment:", E); // Output: 1
+
+console.log(true && true); // Output: true
+console.log(true && false); // Output: false
+console.log(false && true); // Output: false
+console.log(false && false); // Output: false
+
+let hasTickets = true;
+let hasId = true;
+console.log(hasTickets && hasId); // Output: true
+hasId = false;
+console.log(hasTickets && hasId); // Output: false
+
+console.log(true || true); // Output: true
+console.log(true || false); // Output: true
+console.log(false || true); // Output: true
+console.log(false || false); // Output: false
+
+let isSunny = false;
+let hasRaincoat = true;
+console.log(isSunny || hasRaincoat); // Output: true
+hasRaincoat = false;
+console.log(isSunny || hasRaincoat); // Output: false
+
+console.log(!true); // Output: false
+console.log(!false); // Output: true
+
+let isWeekend = true;
+let goToWork = !isWeekend; // Negation operator
+console.log(goToWork); // Output: false
+
+let num = 10;
+let message = num >= 5 ? "num is >= 5" : "num is not < 5"; // Ternary operator
+console.log(message); // Output: num is >= 5
+
+let number = 4;
+let result = number % 2 === 0 ? "Even" : "Odd"; // Ternary operator
+console.log(result); // Output: Even
