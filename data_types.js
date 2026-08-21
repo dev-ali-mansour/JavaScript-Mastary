@@ -72,3 +72,83 @@ console.log(myVariable); // Output: thirty
 myVariable = true; // This is also allowed because the data type of the variable can change at runtime.
 console.log(typeof myVariable); // Output: boolean
 console.log(myVariable); // Output: true
+
+/* 
+Expression
+An expression is a combination of values, variables, operators, and function calls that can be evaluated to produce a value. In JavaScript, expressions can be used in various contexts, such as assignments, function arguments, and conditional statements.
+
+Literal
+A literal is a fixed value that is directly written in the code.
+
+Operators
+Operators are symbols that perform operations on values and variables. JavaScript has various types of operators, including arithmetic, comparison, logical, assignment, and more.
+ */
+
+let additionResult = 5 + 3; // Addition operator
+console.log("Addition Result:", additionResult); // Output: 8
+
+let minusResult = 10 - 4; // Subtraction operator
+console.log("Subtraction Result:", minusResult); // Output: 6
+
+let multiplicationResult = 6 * 7; // Multiplication operator
+console.log("Multiplication Result:", multiplicationResult); // Output: 42
+
+let divisionResult = 20 / 4; // Division operator
+console.log("Division Result:", divisionResult); // Output: 5
+
+let modulusResult = 10 % 3; // Modulus operator (remainder)
+console.log("Modulus Result:", modulusResult); // Output: 1
+
+let exponentiationResult = 2 ** 3; // Exponentiation operator
+console.log("Exponentiation Result:", exponentiationResult); // Output: 8
+
+let isEqual = 5 == "5"; // Equality operator (loose equality)
+console.log("Is Equal:", isEqual); // Output: true
+
+let isStrictEqual = 5 === "5"; // Strict equality operator
+console.log("Is Strict Equal:", isStrictEqual); // Output: false
+
+let isGreaterThan = 10 > 5; // Greater than operator
+console.log("Is Greater Than:", isGreaterThan); // Output: true
+
+let isLessThan = 3 < 7; // Less than operator
+console.log("Is Less Than:", isLessThan); // Output: true
+
+let logicalAnd = true && false; // Logical AND operator
+console.log("Logical AND:", logicalAnd); // Output: false
+
+let logicalOr = true || false; // Logical OR operator
+console.log("Logical OR:", logicalOr); // Output: true
+
+let logicalNot = !true; // Logical NOT operator
+console.log("Logical NOT:", logicalNot); // Output: false
+
+let X = 5;
+console.log("Before increment:", X); // Output: 5
+X++; // Increment operator (postfix)
+console.log("After increment:", X); // Output: 6
+
+let Y = 10;
+console.log("Before decrement:", Y); // Output: 10
+Y--; // Decrement operator (postfix)
+console.log("After decrement:", Y); // Output: 9
+
+let A = 5;
+A += 3; // equivalent to A = A + 3
+console.log("After addition assignment:", A); // Output: 8
+
+let B = 10;
+B -= 4; // equivalent to B = B - 4
+console.log("After subtraction assignment:", B); // Output: 6
+
+let C = 6;
+C *= 2; // equivalent to C = C * 2
+console.log("After multiplication assignment:", C); // Output: 12
+
+let D = 20;
+D /= 4; // equivalent to D = D / 4
+console.log("After division assignment:", D); // Output: 5
+
+let E = 10;
+E %= 3; // equivalent to E = E % 3
+console.log("After modulus assignment:", E); // Output: 1
